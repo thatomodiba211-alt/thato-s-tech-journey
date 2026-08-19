@@ -99,10 +99,10 @@
   --popover-foreground: var(--cream);
   --primary: var(--cream);
   --primary-foreground: var(--ink);
-  --secondary: oklch(38 0.09 158);
+  --secondary: oklch(38% 0.09 158);
   --secondary-foreground: var(--cream);
-  --muted: oklch(34 0.08 158);
-  --muted-foreground: oklch(78 0.05 88);
+  --muted: oklch(34% 0.08 158);
+  --muted-foreground: oklch(78% 0.05 88);
   --accent: var(--cream);
   --accent-foreground: var(--ink);
   --border: oklch(100 0 0 / 12%);
