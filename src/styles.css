@@ -43,6 +43,9 @@
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
   --color-ink-muted: var(--ink-muted);
+  --color-steel: var(--steel);
+  --color-steel-foreground: var(--steel-foreground);
+  --color-taupe: var(--taupe);
   --color-cream: var(--cream);
   --color-cream-soft: var(--cream-soft);
   --color-cream-foreground: var(--cream-foreground);
