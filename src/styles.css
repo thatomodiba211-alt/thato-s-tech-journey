@@ -6,7 +6,8 @@
 
 /*
  * Design system — Thato Modiba portfolio
- * Palette: deep green #3A4B41 (ink) + warm cream #E6CFA7 (cream)
+ * Palette: deep navy #112250 (ink) + medium blue #3b507d (steel)
+ *          + warm taupe #beb7a7 + light cream #e7e2ce + off-white #f5f4f0
  * Typography: Fraunces (display serif) + DM Sans (body)
  */
 
@@ -43,6 +44,9 @@
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
   --color-ink-muted: var(--ink-muted);
+  --color-steel: var(--steel);
+  --color-steel-foreground: var(--steel-foreground);
+  --color-taupe: var(--taupe);
   --color-cream: var(--cream);
   --color-cream-soft: var(--cream-soft);
   --color-cream-foreground: var(--cream-foreground);
@@ -54,60 +58,63 @@
 :root {
   --radius: 0.75rem;
 
-  /* Brand */
-  --ink: oklch(30.19% 0.098 157.5);          /* #3A4B41 deep green */
-  --ink-foreground: oklch(90.5% 0.055 88);    /* soft cream text on green */
-  --ink-muted: oklch(74% 0.04 88);            /* muted cream on green */
-  --cream: oklch(84.09% 0.229 84.9);          /* #E6CFA7 */
-  --cream-soft: oklch(95.5% 0.035 90);        /* near-white cream */
+  /* Brand — navy / blue / taupe / cream */
+  --ink: oklch(26.82% 0.0875 265.53);        /* #112250 deep navy */
+  --ink-foreground: oklch(91.14% 0.0272 95.36); /* cream text on navy */
+  --ink-muted: oklch(78% 0.03 95);            /* muted cream on navy */
+  --steel: oklch(43.54% 0.0793 264.35);       /* #3b507d medium blue */
+  --steel-foreground: oklch(91.14% 0.0272 95.36);
+  --taupe: oklch(78.07% 0.0236 87.17);        /* #beb7a7 warm taupe */
+  --cream: oklch(91.14% 0.0272 95.36);        /* #e7e2ce light cream */
+  --cream-soft: oklch(96.68% 0.0054 95.1);    /* #f5f4f0 off-white */
   --cream-foreground: var(--ink);
 
-  /* Semantic mapping — cream base, green ink */
-  --background: oklch(96.5% 0.028 92);        /* soft cream paper */
+  /* Semantic mapping — off-white base, navy ink, blue accent */
+  --background: oklch(96.68% 0.0054 95.1);    /* #f5f4f0 off-white paper */
   --foreground: var(--ink);
-  --card: oklch(99% 0.012 92);
+  --card: oklch(99% 0.004 95);
   --card-foreground: var(--ink);
   --popover: var(--card);
   --popover-foreground: var(--ink);
   --primary: var(--ink);
   --primary-foreground: var(--cream);
-  --secondary: var(--cream);
+  --secondary: var(--taupe);
   --secondary-foreground: var(--ink);
-  --muted: oklch(92% 0.04 88);
-  --muted-foreground: oklch(42% 0.05 158);
-  --accent: var(--cream);
-  --accent-foreground: var(--ink);
+  --muted: oklch(92% 0.02 90);
+  --muted-foreground: oklch(43.54% 0.05 265);
+  --accent: var(--steel);
+  --accent-foreground: var(--cream);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(86% 0.05 92 / 70%);
-  --input: oklch(86% 0.05 92 / 90%);
-  --ring: var(--ink);
+  --border: oklch(26.82% 0.05 265 / 16%);
+  --input: oklch(26.82% 0.05 265 / 22%);
+  --ring: var(--steel);
 
-  --chart-1: oklch(30.19% 0.098 157.5);
-  --chart-2: oklch(84.09% 0.229 84.9);
-  --chart-3: oklch(55% 0.07 158);
-  --chart-4: oklch(70% 0.12 85);
-  --chart-5: oklch(40% 0.06 158);
+  --chart-1: oklch(26.82% 0.0875 265.53);
+  --chart-2: oklch(43.54% 0.0793 264.35);
+  --chart-3: oklch(78.07% 0.0236 87.17);
+  --chart-4: oklch(91.14% 0.0272 95.36);
+  --chart-5: oklch(96.68% 0.0054 95.1);
 }
 
 .dark {
   --background: var(--ink);
   --foreground: var(--cream);
-  --card: oklch(26 0.085 158);
+  --card: oklch(22% 0.07 265);
   --card-foreground: var(--cream);
-  --popover: oklch(26 0.085 158);
+  --popover: oklch(22% 0.07 265);
   --popover-foreground: var(--cream);
   --primary: var(--cream);
   --primary-foreground: var(--ink);
-  --secondary: oklch(38% 0.09 158);
+  --secondary: var(--steel);
   --secondary-foreground: var(--cream);
-  --muted: oklch(34% 0.08 158);
-  --muted-foreground: oklch(78% 0.05 88);
-  --accent: var(--cream);
-  --accent-foreground: var(--ink);
+  --muted: oklch(32% 0.06 265);
+  --muted-foreground: oklch(78% 0.03 95);
+  --accent: var(--steel);
+  --accent-foreground: var(--cream);
   --border: oklch(100 0 0 / 12%);
   --input: oklch(100 0 0 / 15%);
-  --ring: var(--cream);
+  --ring: var(--steel);
 }
 
 @layer base {
