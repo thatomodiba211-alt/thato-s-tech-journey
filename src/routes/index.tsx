@@ -600,7 +600,7 @@ function Contact() {
                     </span>
                     <span className="min-w-0">
                       <span className="block text-xs uppercase tracking-wider" style={{ color: "var(--color-ink-muted)" }}>{it.label}</span>
-                      <span className="block truncate font-medium" style={{ color: "var(--color-cream)" }}>{it.value}</span>
+                      <span className="block break-words text-[13px] font-medium leading-snug" style={{ color: "var(--color-cream)" }}>{it.value}</span>
                     </span>
                     <ArrowUpRight className="ml-auto h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
                       style={{ color: "var(--color-ink-muted)" }} />
