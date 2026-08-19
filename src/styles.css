@@ -55,17 +55,17 @@
   --radius: 0.75rem;
 
   /* Brand */
-  --ink: oklch(30.19 0.098 157.5);          /* #3A4B41 deep green */
-  --ink-foreground: oklch(90.5 0.055 88);    /* soft cream text on green */
-  --ink-muted: oklch(74 0.04 88);            /* muted cream on green */
-  --cream: oklch(84.09 0.229 84.9);          /* #E6CFA7 */
-  --cream-soft: oklch(95.5 0.035 90);        /* near-white cream */
+  --ink: oklch(30.19% 0.098 157.5);          /* #3A4B41 deep green */
+  --ink-foreground: oklch(90.5% 0.055 88);    /* soft cream text on green */
+  --ink-muted: oklch(74% 0.04 88);            /* muted cream on green */
+  --cream: oklch(84.09% 0.229 84.9);          /* #E6CFA7 */
+  --cream-soft: oklch(95.5% 0.035 90);        /* near-white cream */
   --cream-foreground: var(--ink);
 
   /* Semantic mapping — cream base, green ink */
-  --background: oklch(96.5 0.028 92);        /* soft cream paper */
+  --background: oklch(96.5% 0.028 92);        /* soft cream paper */
   --foreground: var(--ink);
-  --card: oklch(99 0.012 92);
+  --card: oklch(99% 0.012 92);
   --card-foreground: var(--ink);
   --popover: var(--card);
   --popover-foreground: var(--ink);
@@ -73,21 +73,21 @@
   --primary-foreground: var(--cream);
   --secondary: var(--cream);
   --secondary-foreground: var(--ink);
-  --muted: oklch(92 0.04 88);
-  --muted-foreground: oklch(42 0.05 158);
+  --muted: oklch(92% 0.04 88);
+  --muted-foreground: oklch(42% 0.05 158);
   --accent: var(--cream);
   --accent-foreground: var(--ink);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(86 0.05 92 / 70%);
-  --input: oklch(86 0.05 92 / 90%);
+  --border: oklch(86% 0.05 92 / 70%);
+  --input: oklch(86% 0.05 92 / 90%);
   --ring: var(--ink);
 
-  --chart-1: oklch(30.19 0.098 157.5);
-  --chart-2: oklch(84.09 0.229 84.9);
-  --chart-3: oklch(55 0.07 158);
-  --chart-4: oklch(70 0.12 85);
-  --chart-5: oklch(40 0.06 158);
+  --chart-1: oklch(30.19% 0.098 157.5);
+  --chart-2: oklch(84.09% 0.229 84.9);
+  --chart-3: oklch(55% 0.07 158);
+  --chart-4: oklch(70% 0.12 85);
+  --chart-5: oklch(40% 0.06 158);
 }
 
 .dark {
