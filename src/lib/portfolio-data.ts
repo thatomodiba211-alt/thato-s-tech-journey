@@ -111,7 +111,13 @@ export const EDUCATION: EducationItem[] = [
     detail: "Intensive technical learnship focused on real-world delivery.",
     period: "2026",
   },
+  {
+    school: "National Senior Certificate — Bachelor's Degree Pass",
+    detail: "Graduated high school with a Bachelor's degree pass, NQF Level 4.",
+    period: "Matric",
+  },
 ];
+
 
 export type Certification = {
   name: string;
