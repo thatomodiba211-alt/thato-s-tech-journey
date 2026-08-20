@@ -13,15 +13,15 @@ export const PROFILE = {
 
 export const ABOUT_PARAGRAPHS = [
   "I am a 2031 tertiary student studying computer engineering, with a growing record of hands-on AI and software programmes. My foundation spans Coursera's Google AI courses and Anthropic's Claude AI course, giving me a working fluency with modern AI tooling.",
-  "In 2026 I participated in the FNB App Academy and MTN Academy, then furthered my studies at the University of Johannesburg Business School — bridging engineering depth with commercial thinking.",
-  "I enjoy creating technically innovative ideas to solve complex problems, and I completed the CAPACITI ASA learnship in 2026, where I sharpened real-world delivery and collaboration skills.",
+  "I matriculated from high school with a Bachelor's degree pass (NQF Level 4) — the highest school-leaving pass in South Africa — and went straight into building. In 2026 I participated in the FNB App Academy and MTN Academy, then furthered my studies at the University of Johannesburg Business School, bridging engineering depth with commercial thinking.",
+  "Alongside the technical side I've built real communication, leadership and management experience: four years on a church executive committee, team delivery in the CAPACITI ASA learnship, and day-to-day work across the Microsoft 365 suite for documentation, reporting and collaboration.",
 ];
 
 export const STATS = [
   { value: "4+", label: "AI & dev academies" },
   { value: "2031", label: "Engineering cohort" },
-  { value: "4 yrs", label: "Executive leadership" },
-  { value: "19", label: "Years young" },
+  { value: "4 yrs", label: "Leadership & management" },
+  { value: "NQF 4", label: "Bachelor's pass" },
 ];
 
 export type Skill = { name: string; level: number };
@@ -29,6 +29,7 @@ export type Skill = { name: string; level: number };
 export const TECH_SKILLS: Skill[] = [
   { name: "Python", level: 80 },
   { name: "AI / LLM tooling (Claude, Google AI)", level: 85 },
+  { name: "Microsoft 365 (Word, Excel, PowerPoint, Teams, Outlook)", level: 90 },
   { name: "Web & app development", level: 72 },
   { name: "TypeScript & React", level: 65 },
   { name: "Prompt engineering", level: 88 },
@@ -36,15 +37,18 @@ export const TECH_SKILLS: Skill[] = [
 ];
 
 export const SOFT_SKILLS = [
-  "Leadership",
   "Communication",
+  "Leadership",
+  "Management",
   "Problem-solving",
   "Teamwork",
   "Organisation",
   "Adaptability",
   "Financial stewardship",
   "Public speaking",
+  "Time management",
 ];
+
 
 export type Project = {
   title: string;
